@@ -5,8 +5,6 @@ body {
 }
 
 .App {
-    position: relative;
-    width: 550px;
     background: #23252C;
     text-align: center;
     padding: 10px;
@@ -14,13 +12,10 @@ body {
 .App-section {
     background-color: #1A1B21;
     width: 317px;
-    margin: 0 117px;
+    margin: auto;
     border-radius: 10px;
 }
 
-.info {
-    width: 317px;
-}
 .info-img {
     width: 317px;
     border-radius: 10px 10px 0 0 ;  
@@ -28,13 +23,12 @@ body {
 .info-header {
     font-weight: 700;
     font-size: 25px;
-    line-height: 30px;
     color: #FFFFFF;
     margin-bottom: 0;
 }
 .info-para {
     font-weight: 400;
-    font-size: 12.8px;
+    font-size: 12px;
     line-height: 15px;
     color: #F3BF99;
     margin-top: 6px;
@@ -42,7 +36,7 @@ body {
 }
 .info-web {
     font-weight: 400;
-    font-size: 10.24px;
+    font-size: 10px;
     color: #F5F5F5;
     margin-top: 0;
     text-decoration: none;
@@ -74,27 +68,23 @@ body {
 }
 
 .header {
-    width: 242px;
     font-weight: 700;
     font-size: 16px;
     color: #F5F5F5;
     text-align: left;
 }
 .para {
-    width: 242px;
     font-weight: 400;
-    font-size: 10.24px;
+    font-size: 10px;
     color: #DCDCDC;
     text-align: left;
     justify-content:space-evenly;
 }
 .about {
-    width: 317px;
     margin: 32px 35px 0 35px ;
 }
 
 .interest {
-    width: 317px;
     margin: 27px 35px 24px 35px;
 }
 
@@ -102,7 +92,7 @@ body {
     width: 317px;
     background-color: black;
     border-radius: 0px 0px 10px 10px;
-    padding: 10px 0 10px 0;
+    padding: 10px 0;
 }
 .footer-list {
     list-style-type: none;
