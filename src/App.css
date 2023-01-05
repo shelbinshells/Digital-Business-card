@@ -1,33 +1,132 @@
+body {
+    margin: 0;
+    padding: 0 30%;
+    font-family: 'inter', sans-serif;
+}
+
 .App {
-    text-align: center;
     background: #23252C;
+    text-align: center;
+    padding: 10px;
+}
+.App-section {
+    background-color: #1A1B21;
+    width: 317px;
+    margin: auto;
+    border-radius: 10px;
 }
 
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
+.info-img {
+    width: 317px;
+    border-radius: 10px 10px 0 0 ;  
 }
-
-.App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+.info-header {
+    font-weight: 700;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 0;
 }
-
-.App-link {
-    color: #61dafb;
+.info-para {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #F3BF99;
+    margin-top: 6px;
+    margin-bottom: 9px;
 }
-
-.info>button {
+.info-web {
+    font-weight: 400;
+    font-size: 10px;
+    color: #F5F5F5;
+    margin-top: 0;
+    text-decoration: none;
+}
+.info-button {
     width: 247px;
     height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
     background: #FFFFFF;
     border: 1px solid #D1D5DB;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
+    margin: 16px 35px 0 35px;
 }
+.info-button-mail {
+    width: 16px;
+    height: 16px;
+}
+
+.info-button-link {
+    font-size: 14px;
+    font-weight: 500;
+    color: #374151;
+    text-decoration: none;
+}
+
+.header {
+    font-weight: 700;
+    font-size: 16px;
+    color: #F5F5F5;
+    text-align: left;
+}
+.para {
+    font-weight: 400;
+    font-size: 10px;
+    color: #DCDCDC;
+    text-align: left;
+    justify-content:space-evenly;
+}
+.about {
+    margin: 32px 35px 0 35px ;
+}
+
+.interest {
+    margin: 27px 35px 24px 35px;
+}
+
+.footer {
+    width: 317px;
+    background-color: black;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px 0;
+}
+.footer-list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+.insta {
+    background-image: url('./components/images/Instagram\ Icon.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+.twitt {
+    background-image: url('./components/images/Twitter\ Icon.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+.linkdn {
+    background-image: url('./components/images/Linkedin\ Icon.png ');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+.github {
+    background-image: url('./components/images/GitHub\ Icon.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+

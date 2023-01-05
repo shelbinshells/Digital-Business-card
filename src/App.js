@@ -8,10 +8,12 @@ import Footer from './components/Footer'
 export default function App() {
     return ( 
     <div className = "App" >
-        <Info/>
-        <About/>
-        <Interest/>
-        <Footer/> 
+        <section className="App-section">
+            <Info/>
+            <About/>
+            <Interest/>
+            <Footer/>
+        </section> 
     </div>
     )
 }
